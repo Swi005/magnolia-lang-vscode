@@ -17,7 +17,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.mg",
-				"match": "\\b(concept|implementation|signature|program|external|Cxx|JavaScript|Python|CUDA|renaming|satisfaction|models|approximates|with|axiom|function|predicate|procedure|theorem|type|require|use|obs|out|upd|guard|assert|call|if|then|else|var|skip|value|package|imports|rewrite|generate|implement|in)\\b"
+				"match": "\\b(package|imports|program|implementation|signature|concept|satisfaction|models|morphism|protect|times|union|retain|define|hide|reveal|requires|require|requires|approximates|extend|defines|external|with|on|by|use|value|alert|alerts|leave|leaves|precond|throw|throws|handler|unless|pre|post|invariant|assert|throwing|predicate|procedure|function|axiom|theorem|proof|class|type|struct|default|override|guard|call|const|var|assert|open|new|preserve|generate|free|initial|partition|renaming|homomorphism|datainvariant|subalgebra|congruence|quotient|full|declared|rule|transform|forall|exists|name|skip|FALSE|TRUE|recover|obs|upd|out|del|giv|nrm|expr|break|case|continue|default|do|else|for|if|then|end|let|return|switch|while|repeat|along|from|in)\\b"
 			}]
 		},
 		"line-comment": {

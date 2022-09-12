@@ -2,7 +2,7 @@
     "name": "magnolia-lang-syntax",
     "displayName": "Magnolia Syntax Highlighting",
     "description": "Provides basic syntax highlighting to the Magnolia programming language",
-    "publisher": "mariuslarnoy",
+    "publisher": "mariuslarnoy, sanderwiig",
     "version": "0.0.3",
     "engines": {
         "vscode": "^1.61.0"
