@@ -6,4 +6,4 @@ Basic syntax highlighting for the [Magnolia](https://github.com/magnolia-lang/ma
 - Comments (single line + multiline)
 
 # Installation
-Add the `magnolia-lang-syntax` folder to your `*/.vscode/extensions` folder.
+Add the `magnolia-lang-vscode` folder to your `*/.vscode/extensions` folder.
