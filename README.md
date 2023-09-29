@@ -4,6 +4,6 @@ Basic syntax highlighting for the [Magnolia](https://github.com/magnolia-lang/ma
 # Features
 - Keywords
 - Comments (single line + multiline)
-
+- Cool file icon
 # Installation
 Add the `magnolia-lang-vscode` folder to your `*/.vscode/extensions` folder.
