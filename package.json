@@ -4,6 +4,8 @@
     "description": "Provides basic syntax highlighting to the Magnolia programming language",
     "publisher": "mariuslarnoy, sanderwiig",
     "version": "0.0.3",
+    "icon":"./images/magnolia.png",
+    "preview" :true,
     "engines": {
         "vscode": "^1.61.0"
     },
@@ -15,12 +17,27 @@
             "id": "magnolia",
             "aliases": ["Magnolia", "magnolia"],
             "extensions": [".mg"],
-            "configuration": "./language-configuration.json"
+            "configuration": "./language-configuration.json",
+            "icon": {
+                "light": "./icons/magnolia.png",
+                "dark": "./icons/magnolia.png"
+              }
         }],
         "grammars": [{
             "language": "magnolia",
             "scopeName": "source.magnolia",
             "path": "./syntaxes/magnolia.tmLanguage.json"
-        }]
-    }
+        }],
+        "iconThemes": [
+            {
+                "id":"magnolia",
+                "label":"Magnolia",
+                "path":"./fileicons/magnolia-icon-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Swi005/magnolia-lang-vscode.git"
+    } 
 }
