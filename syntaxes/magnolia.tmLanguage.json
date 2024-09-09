@@ -25,6 +25,14 @@
 				{
 				"name": "comment.line.mg",
 				"match": "//.*"	
+				},
+				{
+					"name": "leading.doccomment.line.mg",
+					"match": "//>.*"	
+				},
+				{
+					"name": "trailing.doccomment.line.mg",
+					"match": "//^.*"	
 				}
 			]
 		},
@@ -38,6 +46,11 @@
                 {
                     "name": "comment.block",
                     "begin": "(?x) / \\*",
+                    "end": "(?x) \\* /"
+                },
+				{
+                    "name": "doc.comment.block",
+                    "begin": "(?x) / \\**",
                     "end": "(?x) \\* /"
                 }]}
 
